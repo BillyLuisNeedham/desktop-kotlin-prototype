@@ -19,6 +19,7 @@ repositories {
 dependencies {
     implementation(compose.desktop.currentOs)
     implementation("org.sputnikdev:bluetooth-manager:1.5.3")
+    implementation("org.sputnikdev:bluetooth-manager-tinyb:1.3.3")
 }
 
 tasks.withType<KotlinCompile> {
