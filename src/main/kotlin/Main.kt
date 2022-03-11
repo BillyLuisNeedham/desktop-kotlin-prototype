@@ -32,14 +32,19 @@ fun App() {
                 text = "Hello, Desktop!"
             }) {
                 Text(text)
+//                BluetoothManagerSimpleTest.run()
             }
         }
     }
 
 }
 
-fun main() = application {
-    Window(onCloseRequest = ::exitApplication) {
-        App()
-    }
+fun main() {
+//    println("Running")
+//    BluetoothManagerSimpleTest.run()
 }
+//    application {
+//    Window(onCloseRequest = ::exitApplication) {
+//        App()
+//    }
+//}
